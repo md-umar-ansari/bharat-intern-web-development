@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix Clone</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #111;
+      color: #fff;
+    }
+
+    header {
+      background-color: #111;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    .hero {
+      position: relative;
+      height: 500px;
+      background: url('netflix-hero.jpg') center/cover;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .hero h2 {
+      margin-bottom: 20px;
+    }
+
+    .cta {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .cta button {
+      background-color: #e50914;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .movies {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 20px;
+    }
+
+    .movie {
+      margin: 10px;
+      max-width: 200px;
+    }
+
+    .movie img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    footer {
+      background-color: #111;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Netflix Clone</h1>
+  </header>
+
+  <div class="hero">
+    <h2>Watch Unlimited Movies & TV Shows</h2>
+    <div class="cta">
+      <button>Sign Up Now</button>
+    </div>
+  </div>
+
+  <div class="movies">
+    <div class="movie">
+      <img src="movie1.jpg" alt="Movie 1">
+    </div>
+    <div class="movie">
+      <img src="movie2.jpg" alt="Movie 2">
+    </div>
+    <div class="movie">
+      <img src="movie3.jpg" alt="Movie 3">
+    </div>
+    <!-- Add more movie entries as needed -->
+  </div>
+
+  <footer>
+    <p>&copy; 2023 Netflix Clone</p>
+  </footer>
+
+</body>
+</html>
